@@ -7,7 +7,7 @@ const DAYS_BEFORE = 8;
 // ✍️ SCRIVI QUI LE FRASI
 const PHRASES = [
   "Volevo fare qualcosa di carino per rendere più speciale la tua ultima settimana prima di diventare maggiorenne... e ho pensato, dato che non so suonare il piano, perchè non fare qualcosa in cui sono bravo???, ogni giorno questo sito si aggiornerà, preparati al cringe e all'emotional.. ti servirà MUHAHAAH...... ps. visto l'orso (occhiolino occhiolino) e poi se vedi in basso a sinistra sta il tasto play che fa partire Nayt :) ",
-  "Giorno 1: scrivi qui",
+  "Iniziamo subito dai.... MANCA ESATTAMENTE 1 SETTIMANA AL TUO COMPLEANNO.... per il primo giorno volevo fare una porti una semplice riflessione ma allo stesso tempo particolarmente profonda. Hai notato che da quando abbiamo iniziato a parlare non ti ho mai detto nemmeno una volta,seriamente non in maniera ironica, ti voglio bene? Ci ho fatto caso solo ultimamente, forse perchè è scontato e non c'è bisogno  di scriverlo o forse perchè risponderesti con emoji del nerd con dentoni e occhiali🤓... vabbè comunque quale momento migliore per rimediare se non questo? Quindi si.. TI VOGLIO BENEEE ma TANTO TANTO BENE 🤗  ",
   "Giorno 2: scrivi qui",
   "Giorno 3: scrivi qui",
   "Giorno 4: scrivi qui",
@@ -158,5 +158,6 @@ function birthdayConfetti() {
 // Avvio effetti
 preBirthdayParticles();
 birthdayConfetti();
+
 
 
