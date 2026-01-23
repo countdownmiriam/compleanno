@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Countdown</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Countdown</h1>
+    <p class="subtitle">Manca poco.</p>
+
+    <section class="countdown">
+      <div class="box"><span id="d">--</span><small>giorni</small></div>
+      <div class="box"><span id="h">--</span><small>ore</small></div>
+      <div class="box"><span id="m">--</span><small>min</small></div>
+      <div class="box"><span id="s">--</span><small>sec</small></div>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>Frasi sbloccate</h2>
+      <p class="hint">Una al giorno.</p>
+      <ul id="phrases" class="phrases"></ul>
+    </section>
+
+    <section class="music">
+      <button id="playBtn">Play</button>
+      <audio id="bgm" loop>
+        <source src="musica.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+    <footer>
+      <small>—</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
