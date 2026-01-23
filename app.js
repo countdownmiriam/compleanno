@@ -98,4 +98,65 @@ renderPhrases();
 setInterval(updateCountdown, 1000);
 setInterval(renderPhrases, 60000);
 
+function sameDay(a, b) {
+  return a.getFullYear() === b.getFullYear() &&
+         a.getMonth() === b.getMonth() &&
+         a.getDate() === b.getDate();
+}
+
+function isBeforeDay(a, b) {
+  const a0 = new Date(a.getFullYear(), a.getMonth(), a.getDate());
+  const b0 = new Date(b.getFullYear(), b.getMonth(), b.getDate());
+  return a0 < b0;
+}
+
+// Effetto "carino" PRIMA del compleanno: particelle leggere
+function preBirthdayParticles() {
+  const now = new Date();
+  if (!isBeforeDay(now, birthdayDate)) return; // solo prima del 31
+
+  const count = 18; // sobrio
+  for (let i = 0; i < count; i++) {
+    const p = document.createElement("div");
+    p.className = "particle";
+    p.style.left = Math.random() * 100 + "vw";
+    p.style.animationDelay = (Math.random() * 1.8) + "s";
+    p.style.animationDuration = (4 + Math.random() * 2) + "s";
+    document.body.appendChild(p);
+    setTimeout(() => p.remove(), 6500);
+  }
+}
+
+// Coriandoli SOLO il 31 gennaio
+function birthdayConfetti() {
+  const now = new Date();
+  if (!sameDay(now, birthdayDate)) return;
+
+  const count = 90;
+
+  for (let i = 0; i < count; i++) {
+    const c = document.createElement("div");
+    c.className = "confetti";
+    c.style.left = Math.random() * 100 + "vw";
+
+    // Colori leggeri (senza esagerare)
+    const colors = [
+      "rgba(255,255,255,.9)",
+      "rgba(110,231,255,.9)",
+      "rgba(255,90,165,.75)"
+    ];
+    c.style.background = colors[Math.floor(Math.random() * colors.length)];
+
+    c.style.animationDelay = (Math.random() * 0.8) + "s";
+    c.style.transform = `translateY(0) rotate(${Math.random() * 360}deg)`;
+
+    document.body.appendChild(c);
+    setTimeout(() => c.remove(), 3500);
+  }
+}
+
+// Avvio effetti
+preBirthdayParticles();
+birthdayConfetti();
+
 
