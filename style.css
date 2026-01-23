@@ -119,3 +119,39 @@ footer {
   margin-top: 16px;
   color: var(--muted);
 }
+
+/* Particelle leggere (prima del compleanno) */
+.particle {
+  position: fixed;
+  bottom: -10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.75);
+  pointer-events: none;
+  opacity: 0;
+  animation: floatUp 5s ease-in forwards;
+}
+
+@keyframes floatUp {
+  0%   { transform: translateY(0) scale(.8); opacity: 0; }
+  20%  { opacity: 1; }
+  100% { transform: translateY(-110vh) scale(1.2); opacity: 0; }
+}
+
+/* Coriandoli (solo il giorno del compleanno) */
+.confetti {
+  position: fixed;
+  top: -12px;
+  width: 10px;
+  height: 6px;
+  border-radius: 2px;
+  pointer-events: none;
+  opacity: .95;
+  animation: fall 2.6s linear forwards;
+}
+
+@keyframes fall {
+  to { transform: translateY(110vh) rotate(720deg); opacity: 0; }
+}
+
