@@ -91,6 +91,21 @@ hr {
   margin-bottom: 6px;
 }
 
+.video-btn {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  color: var(--text);
+  background: rgba(255,255,255,.08);
+  transition: background .2s ease;
+}
+
+.video-btn:hover {
+  background: rgba(255,255,255,.14);
+}
+
 .badge {
   font-size: 12px;
   padding: 2px 10px;
@@ -169,5 +184,6 @@ footer {
 @keyframes fall {
   to { transform: translateY(110vh) rotate(720deg); opacity: 0; }
 }
+
 
 
