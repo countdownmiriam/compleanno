@@ -24,7 +24,7 @@ const VIDEO_LINKS = [
   null,
   null,
   null,
-  null"
+  null
 ];
 
 function parseLocalDate(d) {
@@ -189,6 +189,7 @@ function birthdayConfetti() {
 // Avvio effetti
 preBirthdayParticles();
 birthdayConfetti();
+
 
 
 
