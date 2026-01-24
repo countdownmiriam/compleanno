@@ -17,14 +17,14 @@ const PHRASES = [
 ];
 
 const VIDEO_LINKS = [
-  "null", // Preludio
-  "null",
+  null, // Preludio
+  null,
   "https://youtube.com/shorts/ivKfEZ6S2T4?si=u8UniM1cspiHfEIX",
-  "null",
-  "null",
-  "null",
-  "null",
-  "null"
+  null,
+  null,
+  null,
+  null,
+  null"
 ];
 
 function parseLocalDate(d) {
@@ -189,6 +189,7 @@ function birthdayConfetti() {
 // Avvio effetti
 preBirthdayParticles();
 birthdayConfetti();
+
 
 
 
