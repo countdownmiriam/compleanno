@@ -16,6 +16,17 @@ const PHRASES = [
   "Giorno 7: scrivi qui",
 ];
 
+const VIDEO_LINKS = [
+  "null", // Preludio
+  "null",
+  "https://youtube.com/shorts/ivKfEZ6S2T4?si=u8UniM1cspiHfEIX",
+  "null",
+  "null",
+  "null",
+  "null",
+  "null"
+];
+
 function parseLocalDate(d) {
   const [y, m, day] = d.split("-").map(Number);
   return new Date(y, m - 1, day);
@@ -56,6 +67,25 @@ function renderPhrases() {
     const openDate = new Date(startUnlockDate);
     openDate.setDate(openDate.getDate() + i);
 
+    // CONTENUTO DEL GIORNO
+    let content = `<div>${open ? text : "Bloccata."}</div>`;
+
+    // PULSANTE VIDEO (solo se sbloccato e solo se esiste il link)
+    if (open && VIDEO_LINKS[i]) {
+      content += `
+        <div style="margin-top:10px">
+          <a
+            href="${VIDEO_LINKS[i]}"
+            target="_blank"
+            rel="noopener"
+            class="video-btn"
+          >
+            Guarda il video
+          </a>
+        </div>
+      `;
+    }
+
     li.innerHTML = `
       <div class="title">
         <span>${i === 0 ? "Preludio" : "Giorno " + i}</span>
@@ -63,8 +93,9 @@ function renderPhrases() {
           ${open ? "Sbloccata" : openDate.toLocaleDateString("it-IT")}
         </span>
       </div>
-      <div>${open ? text : "Bloccata."}</div>
+      ${content}
     `;
+
     list.appendChild(li);
   });
 }
@@ -158,6 +189,7 @@ function birthdayConfetti() {
 // Avvio effetti
 preBirthdayParticles();
 birthdayConfetti();
+
 
 
 
