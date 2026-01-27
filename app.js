@@ -11,7 +11,7 @@ const PHRASES = [
   "OOOOOOOO Eccoci al secondo giorno, dopo ieri serve qualcosa di chill, di meme. Edit:hai appena detto che preferisci i meme va bene ok allora non mi impegno neanche piu a scrivere cose emotional, ah e hai appena mandato triplo pollice e risata ok ok capito tutto ci sta. Allora...inevitabilmente le nostre lunghe conversazioni ci prendono taaaaanto tempo, a me ovviamente non dispiace ma c'è sempre qualcuno che da bravo bambino bisognoso di attenzione si sente messo in disparte 🤣🤣🤣, volevo renderti partecipe di quello che subisco ogni giorno con una breve compilation (editata magistralmente) di scleri ingiustificati di Vinz che coinvolge anche te 🤣 BUONA VISIONE ",
   "Uuuuu SIAMO AL TERZOOOOO il tuo compleanno si avvicina TIC TAC TIC TAC...oggi, anche per celebrare un pò la svolta che c'è stata riguardo al tanto atteso viaggio in Giappone ho preparato una piccola playlist con tutte le esperienze più belle che FAREMO. Ci aspetta un viaggio unico attraverso il Giappone: l’energia di Shibuya, le luci di Shinjuku, la creatività di Harajuku e la tradizione di Asakusa, la spiritualità di Kyoto, la natura di Kamakura, l’incontro con i cervi a Nara, la vitalità di Osaka e la modernità di Yokohama.✨✨✨ Dire di non stare più nella pelle è poco...Il piano iniziale era fare un tour con l'IA ma l'hai presa maluccio quindi...Ma sono sicuro che avere a portata di mano le cose piu belle che faremo non sarà del tutto inutile 😂😂😂 ",
   "Quarto giorno...superata la metà di questo countdown....Come vola il tempo...sai che giorno è? LA GIORNATA DELLA MEMORIA!!!!! Ma invece di ricordare gli ebrei.... oggi voglio proporti i miei momenti preferiti delle nostre conversazioni online con una piccola top 10 che ti permetterà di ricordare per l'appunto,.... era questo il senso della giornata della memoria no ? 😂😂😂😂 Spero che apprezzerai e ..... BUONA VISIONE 🥺",
-  "Giorno 5: scrivi qui",
+  "UQUWSWDN QUINTO GIORNO YEEEEEEEEEEEEEEEE, anche oggi giornata molto memorabile...... ti chiederai perchè.. guarda la nostra streak su tiktok 67 giorni SI 67 GIORNI. VA CELEBRATA IN MANIERA SPECIALEEEE!!!!!!!!!!!! Se ti chiedi come... non temere ci ho pensato io (aura) con un piccolo video con I NOSTRI PERSONAGGI E TREND preferiti che hanno contribuito a farci raggiungere questo tranguardo... e pensare che su questa piattaforma abbiamo veramente parlato di tutto e avuto tra le migliori conversazioni...ERA DOVEROSO CELEBRARLA IN QUALCHE MODO!!!! e come ormai di consuetudine BUONA VISIONEEEEEEEEE ",
   "Giorno 6: scrivi qui",
   "Giorno 7: scrivi qui",
 ];
@@ -22,7 +22,7 @@ const VIDEO_LINKS = [
   "https://youtube.com/shorts/ivKfEZ6S2T4?si=u8UniM1cspiHfEIX",
   "https://youtube.com/playlist?list=PLH37V3pJWAIPXO_Nvbhsay8LZFgQ6eg8D&si=dycSxQcPDQ0ZJG70",
   "https://youtube.com/shorts/VY2vjBEoWuk?si=hpS0B6Zlg8IJJPgJ",
-  null,
+  "https://youtube.com/shorts/YRKElQeBHpI?si=vBSuxwQl48I8NlIA",
   null,
   null
 ];
@@ -189,6 +189,7 @@ function birthdayConfetti() {
 // Avvio effetti
 preBirthdayParticles();
 birthdayConfetti();
+
 
 
 
