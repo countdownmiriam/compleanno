@@ -13,7 +13,7 @@ const PHRASES = [
   "Quarto giorno...superata la metà di questo countdown....Come vola il tempo...sai che giorno è? LA GIORNATA DELLA MEMORIA!!!!! Ma invece di ricordare gli ebrei.... oggi voglio proporti i miei momenti preferiti delle nostre conversazioni online con una piccola top 10 che ti permetterà di ricordare per l'appunto,.... era questo il senso della giornata della memoria no ? 😂😂😂😂 Spero che apprezzerai e ..... BUONA VISIONE 🥺",
   "UQUWSWDN QUINTO GIORNO YEEEEEEEEEEEEEEEE, anche oggi giornata molto memorabile...... ti chiederai perchè.. guarda la nostra streak su tiktok 67 giorni SI 67 GIORNI. VA CELEBRATA IN MANIERA SPECIALEEEE!!!!!!!!!!!! Se ti chiedi come... non temere ci ho pensato io (aura) con un piccolo video con I NOSTRI PERSONAGGI E TREND preferiti che hanno contribuito a farci raggiungere questo tranguardo... e pensare che su questa piattaforma abbiamo veramente parlato di tutto e avuto tra le migliori conversazioni...ERA DOVEROSO CELEBRARLA IN QUALCHE MODO!!!! e come ormai di consuetudine BUONA VISIONEEEEEEEEE ",
   "WOWWWWW PENULTIMO GIORNO DI COUNTDOWNNNN..... anche il progetto sito si avvicina alla sua conclusione HIHISAIDWD ... allora vediamo.. oggi volevo soffermarmi su uno degli aspetti che ho trovato più interessanti della tua persona, la volontà di acculturarmi...ovviamente LO SO che ha una nota ironica ma devo ammetterlo, CHE BELLO, finalmente ho qualcuno che mi consiglia cose un pò più mature e non demon slayer 😂, ADORO guardare ciò che mi consigli e ADORO commentare quello che ho visto subito dopo con te... quindi si te lo devo concedere hai ottimi gusti... GRAZIE per avermi fatto scoprire quelli che sono ormai tra i miei anime preferiti e avermi introdotto al mondo del cinema, in cui sento di avere ancora tanto..ma tantissimo da scoprire e NON VEDO L'ORA DI FARLo..... detto questo magari ultimamente hai notato un rallentamento in questo ambito da parte mia, ma solamente perchè volevo farti una piccola sopresa, ho finito appena di vedere uno dei primi anime che mi hai consigliato... ORB:ON THE MOVEMENTS OF THE EARTH e si anche stavolta hai fatto centro... ma magari dopo ti dirò per bene ciò che ne penso per ora ti lascio con un WOW.. e ovviamente GRAZIE PER ACCULTURARMI SEMPREE 🥹🥹🥹 ",
-  "Giorno 7",
+  "Giorno 7"
 ];
 
 const VIDEO_LINKS = [
@@ -189,6 +189,7 @@ function birthdayConfetti() {
 // Avvio effetti
 preBirthdayParticles();
 birthdayConfetti();
+
 
 
 
